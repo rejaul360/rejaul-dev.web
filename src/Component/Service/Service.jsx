@@ -17,9 +17,9 @@ const Service = () => {
       <div>
         <h5 className='text-center text-white text-3xl my-6 p-8' data-aos="slide-left">My Services</h5>
       </div>
-      <div className="flex flex-wrap justify-between about_cards my-6 px-8">
+      <div className="flex flex-wrap justify-between about_cards my-6 px-8  mx-auto">
         <div
-          className="w-80 p-8 about_card"
+          className="w-80  about_card"
           data-aos="fade-up"
         >
           <div style={{ width: "100%" }}>

@@ -10,14 +10,14 @@ const ShowProject = ({ project }) => {
                 <img src={photo} alt="" className="rounded-xl" />
 
             </figure>
-            <div className="card-body w-full px-4 py-8">
-                <h2 className="chef-name">Website : {name}</h2>
+            <div className="card-body w-full px-4 py-6 ">
+                <h2 className="">Website : {name}</h2>
                 <div className="flex justify-between gap-12  bottom-0">
 
-                    <div className='py-4'>
+                    <div className='mt-4'>
                         <button className="btn-sm rounded font-semibold text-black btn btn-outline btn-info"> <a href={link} target='_blank'>Live </a> </button>
                     </div>
-                    <div className=' flex py-4'>
+                    <div className=' flex mt-4'>
                         <button className="btn-sm rounded font-semibold text-black btn btn-outline btn-info mr-2"> <a href={client} target='_blank'>Client </a> </button>
                         <button className="btn-sm rounded font-semibold text-blackbtn btn btn-outline btn-info"> <a href={server} target='_blank'>Server </a> </button>
                     </div>

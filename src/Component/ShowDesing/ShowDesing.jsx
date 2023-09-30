@@ -12,14 +12,14 @@ const ShowDesing = ({ project }) => {
                     <img src={photo} alt="" className="rounded-xl" />
 
                 </figure>
-                <div className="card-body w-full px-4 py-8 ">
-                    <h2 className="chef-name">Website Name: {name}</h2>
+                <div className="card-body w-full px-4 py-6 ">
+                    <h2 className="name">Website Name: {name}</h2>
                     <div className="flex justify-between gap-12  bottom-0">
 
-                        <div className='py-4'>
+                        <div className='py-2'>
                             <button className="btn-sm rounded font-semibold text-black btn btn-outline btn-info"> <a href={link} target='_blank'>Live </a> </button>
                         </div>
-                        <div className='py-4'>
+                        <div className='py-2'>
                             <button className="btn-sm rounded font-semibold text-black btn btn-outline btn-info"> <a href={client} target='_blank'>Code</a> </button>
                         </div>
 

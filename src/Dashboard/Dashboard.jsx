@@ -9,14 +9,14 @@ import './Dashboard.css'
 const Dashboard = () => {
 
     return (
-        <div className=' style_set sm:h-full' >
+        <div className=' style_set h-full' >
         <div className='flex h-auto'>
           <div className='rounded-full h-64 w-full object-cover flex items-center justify-center'>
             <img
               style={{ width: "220px", height: "220px", borderRadius: "50%" }}
               src={aboutMe}
               alt=""
-              className='items-center justify-center p-2 mt-2'
+              className='items-center justify-center p-2'
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1500"
@@ -31,11 +31,11 @@ const Dashboard = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
             >
-              <h4 className='text-xl fontStyle text-white mt-2'>Hello! I am</h4>
+              <h4 className='text-xl fontStyle text-white '>Hello! I am</h4>
               <h1 style={{ fontStyle: "initial" }} className="my_name text-2xl">
                 REJAUL ISLAM
               </h1>
-              <h5 className="text-light text-2xl letter-sp text-white">Frontend Developer</h5>
+              <h5 style={{fontSize : '20px'}} className="text-light  letter-sp text-white">MERN STACK DEVELOPER</h5>
               <Resume></Resume>
             </motion.div>
           </div>
