@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from "../../assets/images/Front End Developer of Rejaul.pdf"
+import CV from "../../assets/images/MERN Stack Developer resume of Rejaul.pdf"
 
 const Resume = () => {
     return (
